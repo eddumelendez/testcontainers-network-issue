@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.example.ConsumerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.301 s -- in org.example.ConsumerTest
