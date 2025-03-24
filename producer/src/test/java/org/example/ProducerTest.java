@@ -1,6 +1,7 @@
 package org.example;
 
 import com.github.dockerjava.api.model.Network;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
@@ -28,6 +29,8 @@ public class ProducerTest {
                      .withNetwork(network)) {
             redis.start();
             redis2.start();
+            Assert.assertTrue(redis.isRunning());
+            Assert.assertTrue(redis2.isRunning());
         }
     }
 
